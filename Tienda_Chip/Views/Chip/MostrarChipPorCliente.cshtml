@@ -1,0 +1,27 @@
+﻿@model List<Model.Entity.Models.ChipCliente>
+
+<h2 class="text-center text-success" >Cliente por Departamento</h2>
+
+@{
+    ViewBag.Title = "MostrarChipPorCliente";
+}
+
+<table class="table table-hover table-striped">
+    <thead>
+        <tr class="bg-primary">
+            <th>Cedula</th>
+            <th>Nombre</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Cedula</td>
+                <td>@item.Nombre</td>
+            </tr>
+        }
+    </tbody>
+    
+</table>

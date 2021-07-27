@@ -1,0 +1,12 @@
+C:\Users\LENOVO\source\repos\Tienda_Chip\Model.Entity\bin\Debug\Model.Entity.dll.config
+C:\Users\LENOVO\source\repos\Tienda_Chip\Model.Entity\bin\Debug\Model.Entity.dll
+C:\Users\LENOVO\source\repos\Tienda_Chip\Model.Entity\bin\Debug\Model.Entity.pdb
+C:\Users\LENOVO\source\repos\Tienda_Chip\Model.Entity\bin\Debug\EntityFramework.dll
+C:\Users\LENOVO\source\repos\Tienda_Chip\Model.Entity\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\LENOVO\source\repos\Tienda_Chip\Model.Entity\bin\Debug\EntityFramework.xml
+C:\Users\LENOVO\source\repos\Tienda_Chip\Model.Entity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\LENOVO\source\repos\Tienda_Chip\Model.Entity\obj\Debug\Model.Entity.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\Tienda_Chip\Model.Entity\obj\Debug\Model.Entity.csproj.CopyComplete
+C:\Users\LENOVO\source\repos\Tienda_Chip\Model.Entity\obj\Debug\Model.Entity.dll
+C:\Users\LENOVO\source\repos\Tienda_Chip\Model.Entity\obj\Debug\Model.Entity.pdb
+C:\Users\LENOVO\source\repos\Tienda_Chip\Model.Entity\obj\Debug\Model.Entity.csprojAssemblyReference.cache

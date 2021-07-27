@@ -1,0 +1,60 @@
+﻿@model Model.Entity.Chip
+@{
+    ViewBag.Title = "Editar";
+}
+
+<h2>Editar</h2>
+<form action="@Url.Action("Editar","Chip")" method="post" id="frmChip">
+    @Html.AntiForgeryToken();
+    <div class="form-horizontal">
+        <h4>Actualizar NUevo Chip</h4>
+        @Html.HiddenFor(model => model.ID)
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        <div class="form-group">
+            <label class="form-label col-md-2">Nombre de la Compañia</label>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Compañia, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            <label class="form-label col-md-2">Numero de la Compañia</label>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Numero, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            <label class="form-label col-md-2">Pink de la Compañia</label>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Pink, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            <label class="form-label col-md-2">Punk de la Compañia</label>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Punk, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+        </div>
+
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+
+            <input  type="submit" value="Editar Chip" class="btn btn-primary"/>
+        </div>
+
+    </div>
+
+</form>
+<div>
+    @Html.ActionLink("Regresar", "Index");
+</div>
+

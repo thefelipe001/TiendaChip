@@ -1,0 +1,58 @@
+﻿
+@{
+    ViewBag.Title = "Crear";
+}
+
+<form action="@Url.Action("Crear","Chip")" method="post" id="frmChip">
+
+    @Html.AntiForgeryToken();
+    <div class="form-horizontal">
+        <h4>Crear Nuevo Empleado</h4>
+        <hr />
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Nombre de la Compañia</label>
+            <div class="col-md-10">
+                <input type="text" class="form-control" name="Compañia" placeholder="Ingrese la compañia"  required />
+
+            </div>
+
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Numero de la Compañia</label>
+            <div class="col-md-10">
+                <input type="text" class="form-control" name="Numero" placeholder="Ingrese el numero " required />
+
+            </div>
+
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Pink de la Compañia</label>
+            <div class="col-md-10">
+                <input type="text" class="form-control" name="Pink" placeholder="Ingrese el Pink " required />
+
+            </div>
+
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Punk</label>
+            <div class="col-md-10">
+                <input type="text" class="form-control" name="Punk" placeholder="Punk de la Compañia" required />
+
+            </div>
+
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Crear Chip" class="btn btn-primary" />
+
+            </div>
+        </div>
+
+    </div>
+
+</form>
